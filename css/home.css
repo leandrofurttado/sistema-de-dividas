@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#caixa {
+    background-color: gray;
+}
+.mes h3{
+    background-color: brown;
+    padding: 5px 12px;
+    width: 80px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+
+.mes h3:hover{
+    background-color: green;
+}
+
+#sair{
+    background-color: white;
+    color: black;
+    padding: 5px 8px;
+    font-size:20px;
+    display: block;
+    width: 80px;
+    clear: both;
+    text-align: center;
+    margin-left: 90%;
+}
+
+#sair:hover{
+    background-color: green;
+}
+
+.dividas-text{
+    text-align: center;
+    color: white;
+    margin: 100px;
+}
+
+table{
+    margin: auto;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+td{
+    width: 200px;
+    font-size: 20px;
+}
+tr:hover{
+
+    background-color: gray;
+}
+
+.titulo-barra{
+    background-color: rgb(139, 2, 2);
+}
+
+#adicionar {
+    width: 40px;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 420px;
+    margin-bottom: 20px;
+}
+
+#adicionar a{
+    color: black;
+}
+
+.titulo-delete{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.titulo-delete:hover{
+    background-color: rgb(240, 76, 76);
+    padding: 10px;
+}
+
+.titulo-delete a{
+    color: red;
+    text-align: center;
+}
+
+.titulo-delete a:hover{
+    color: rgb(0, 0, 0);
+}
+
+#somatoria{
+    background-color: rgba(228, 57, 57, 0.575);
+    cursor:context-menu;
+}
+
+
+#somatoria-verde{
+    background-color: rgba(57, 228, 66, 0.575);
+    cursor:context-menu;
+}
+
+.saldo-total{
+    background-color: green;
+    width: 100px;
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+.saldo-total h3{
+    padding: 20px;
+}
